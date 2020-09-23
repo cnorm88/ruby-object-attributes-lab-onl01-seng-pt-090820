@@ -1,10 +1,5 @@
 class Dog
   
- def initialize(name) 
-    @name = name
-    
-  end
-  
   # Classical get method 
   def name 
     @name
