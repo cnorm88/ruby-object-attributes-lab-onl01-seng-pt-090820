@@ -1,7 +1,8 @@
 class Dog
   
- def initialize(name) 
+ def initialize(name, breed) 
     @name = name
+    @breed = breed
   end
   
   # Classical get method 
@@ -14,11 +15,7 @@ class Dog
     @name = name
   end
   
-  def breed
-    @breed = breed
-  end
-  
-  def breed=(breed) 
+    def breed=(breed) 
     @breed = breed
   end
   
